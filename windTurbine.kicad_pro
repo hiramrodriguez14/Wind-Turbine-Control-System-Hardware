@@ -426,10 +426,6 @@
       "Turbine Module"
     ],
     [
-      "9ffa6de6-79b9-4c3b-bd39-ca00a034e4bd",
-      "Pitch Control Submodule"
-    ],
-    [
       "c40e8a31-3def-4c9c-b5d8-e4a5d829e1e2",
       "Load & MCU Module"
     ],
@@ -440,10 +436,6 @@
     [
       "00936ca2-f471-40b0-8656-50a15eb19133",
       "UI Submodule"
-    ],
-    [
-      "e7a75c73-6068-49b7-94c7-949574e3c568",
-      "Data Logging Submodule"
     ]
   ],
   "text_variables": {}

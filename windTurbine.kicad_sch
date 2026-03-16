@@ -5,14 +5,68 @@
 	(uuid "c7474196-160f-4353-9059-7217f3c39c47")
 	(paper "A4")
 	(title_block
-		(title "Pitch Control Submodule")
+		(title "Control System")
 		(date "2026-03-15")
 		(rev "A")
 		(company "Puerto Rico Embedded Solutions")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 44.958 41.656)
+		(end 260.096 134.62)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 34a62113-1adf-4ed0-bd39-2a6156567901)
+	)
+	(text "Control System "
+		(exclude_from_sim no)
+		(at 238.506 47.752 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "348a9b60-27b4-4b79-9d38-972cefab0fcf")
+	)
+	(wire
+		(pts
+			(xy 124.46 85.09) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c00ca91-058a-4b39-a54b-e9543ac49639")
+	)
+	(wire
+		(pts
+			(xy 124.46 93.98) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8938f2d-079e-497b-846d-92d6f4a05704")
+	)
+	(wire
+		(pts
+			(xy 124.46 77.47) (xy 158.75 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c303347d-2f5a-4af5-b5e7-48c680f1a323")
+	)
 	(sheet
-		(at 37.084 57.404)
+		(at 50.292 60.452)
 		(size 74.168 62.23)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28,7 +82,7 @@
 		)
 		(uuid "59afd1e4-8e33-419c-87b7-3cb05177cd12")
 		(property "Sheetname" "Turbine Module"
-			(at 37.084 56.6924 0)
+			(at 50.292 59.7404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,12 +91,42 @@
 			)
 		)
 		(property "Sheetfile" "turbine_module.kicad_sch"
-			(at 37.084 120.2186 0)
+			(at 50.292 123.2666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "UART_RX" input
+			(at 124.46 77.47 0)
+			(uuid "e6af241f-4879-4a9b-abd3-867df39461b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" output
+			(at 124.46 85.09 0)
+			(uuid "cfd416b4-eee2-485f-855e-0f3f948e64af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Critical_Conditions" input
+			(at 124.46 93.98 0)
+			(uuid "884c52d8-a739-4f9b-9779-e697cb78ecb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -54,7 +138,7 @@
 		)
 	)
 	(sheet
-		(at 168.91 58.42)
+		(at 158.75 62.992)
 		(size 83.566 55.626)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -70,7 +154,7 @@
 		)
 		(uuid "c40e8a31-3def-4c9c-b5d8-e4a5d829e1e2")
 		(property "Sheetname" "Load & MCU Module"
-			(at 168.91 57.7084 0)
+			(at 158.75 62.2804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79,12 +163,42 @@
 			)
 		)
 		(property "Sheetfile" "load_and_mcu_module.kicad_sch"
-			(at 168.91 114.6306 0)
+			(at 158.75 119.2026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Critical_Condition" output
+			(at 158.75 93.98 180)
+			(uuid "d1465ab8-bc97-4540-9691-8f91a43b2ba6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_RX" input
+			(at 158.75 85.09 180)
+			(uuid "04ea43a1-4258-4222-a3d1-347adaf850ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" output
+			(at 158.75 77.47 180)
+			(uuid "92782c45-2812-443b-8e89-dcc8b498516d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
