@@ -119,7 +119,7 @@
 				(justify right)
 			)
 		)
-		(pin "Critical_Conditions" input
+		(pin "Critical_Condition" input
 			(at 124.46 93.98 0)
 			(uuid "884c52d8-a739-4f9b-9779-e697cb78ecb9")
 			(effects
