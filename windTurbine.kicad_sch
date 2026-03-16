@@ -23,6 +23,19 @@
 		)
 		(uuid 34a62113-1adf-4ed0-bd39-2a6156567901)
 	)
+	(text "Load & UI MCU"
+		(exclude_from_sim no)
+		(at 200.406 91.44 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "33fbc66e-a9df-43b7-b18a-f268091dc3e6")
+	)
 	(text "Control System "
 		(exclude_from_sim no)
 		(at 238.506 47.752 0)
@@ -34,6 +47,19 @@
 			)
 		)
 		(uuid "348a9b60-27b4-4b79-9d38-972cefab0fcf")
+	)
+	(text "Turbine MCU"
+		(exclude_from_sim no)
+		(at 84.328 92.202 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e895435a-5ff3-429a-b8eb-2ef68e1dd4a6")
 	)
 	(wire
 		(pts
@@ -78,7 +104,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "59afd1e4-8e33-419c-87b7-3cb05177cd12")
 		(property "Sheetname" "Turbine Module"
@@ -150,7 +176,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "c40e8a31-3def-4c9c-b5d8-e4a5d829e1e2")
 		(property "Sheetname" "Load & MCU Module"

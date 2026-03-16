@@ -1883,20 +1883,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SD"
-				(at 6.35 1.016 0)
+			(property "Reference" "SD2"
+				(at 13.97 -6.9849 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "SD_CARD"
-				(at 9.652 -7.62 90)
+				(at 13.97 -9.5249 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -2018,19 +2020,6 @@
 					)
 				)
 			)
-			(symbol "SD_Card_Adapter_0_1"
-				(rectangle
-					(start 0 0)
-					(end 12.7 -16.51)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
 			(symbol "SD_Card_Adapter_1_0"
 				(pin input line
 					(at -2.54 -6.35 0)
@@ -2048,6 +2037,20 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "SD_Card_Adapter_1_1"
+				(rectangle
+					(start 0 0)
+					(end 12.7 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 			)
@@ -5054,7 +5057,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "00936ca2-f471-40b0-8656-50a15eb19133")
 		(property "Sheetname" "UI Submodule"
@@ -5216,7 +5219,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "3e052e90-0d59-4844-b9a0-2d5d4bb40783")
 		(property "Sheetname" "Load Submodule"
