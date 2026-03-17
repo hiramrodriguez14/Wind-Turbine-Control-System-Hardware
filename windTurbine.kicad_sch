@@ -36,7 +36,7 @@
 		)
 		(uuid "33fbc66e-a9df-43b7-b18a-f268091dc3e6")
 	)
-	(text "Control System "
+	(text "Turbine Control System "
 		(exclude_from_sim no)
 		(at 238.506 47.752 0)
 		(effects
