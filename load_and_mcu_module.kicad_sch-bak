@@ -2158,10 +2158,6 @@
 		(uuid "50b266a2-ef48-4257-9823-69c9f2e07348")
 	)
 	(no_connect
-		(at 234.95 81.28)
-		(uuid "550be751-0686-41c4-ae38-a19c085a0996")
-	)
-	(no_connect
 		(at 105.41 121.92)
 		(uuid "563fb40a-e934-40ac-8843-2ba29a916b60")
 	)
@@ -2176,14 +2172,6 @@
 	(no_connect
 		(at 105.41 91.44)
 		(uuid "5b48ce53-defd-423b-acf2-9e574523f0fe")
-	)
-	(no_connect
-		(at 234.95 76.2)
-		(uuid "62ea118b-2854-4995-b749-21fd061d0d6f")
-	)
-	(no_connect
-		(at 234.95 78.74)
-		(uuid "68cd1d54-806a-46b9-8258-5565f9e54110")
 	)
 	(no_connect
 		(at 105.41 86.36)
@@ -5058,7 +5046,7 @@
 	)
 	(sheet
 		(at 234.95 28.956)
-		(size 28.194 56.134)
+		(size 28.194 49.276)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5082,7 +5070,7 @@
 			)
 		)
 		(property "Sheetfile" "ui_submodule.kicad_sch"
-			(at 234.95 85.6746 0)
+			(at 234.95 78.8166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,36 +5191,6 @@
 		(pin "STOP" output
 			(at 234.95 73.66 180)
 			(uuid "22086436-daf8-4c4b-95a4-8f9fb29cfb50")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "NOT_LEFT" output
-			(at 234.95 76.2 180)
-			(uuid "865bcbd5-e6b9-4432-b0f6-e424aecd8478")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "NOT_RIGHT" output
-			(at 234.95 78.74 180)
-			(uuid "5597112e-ef6a-42d6-97f3-fba7df13552f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "NOT_STOP" output
-			(at 234.95 81.28 180)
-			(uuid "8e2e1302-308e-4011-b1ff-4f8dcfe63db8")
 			(effects
 				(font
 					(size 1.27 1.27)
